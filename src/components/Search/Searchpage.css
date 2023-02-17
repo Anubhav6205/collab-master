@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.search-page .header{
+    background-color: #2b313c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    padding:1.5rem 5rem;
+    color:rgb(235, 29, 29);
+    font-size: large;
+    
+
+}
+
+.search-page .header .search-input{
+    margin:0 0 0 10rem;
+    width:50%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius:3rem;
+   
+    background-color: #caa9a94a;
+
+
+}
+
+.search-page .header .search-input input{
+    width:90%;
+    padding:.5rem 2rem;
+    outline:none;
+    border:none;
+    border-radius: 2rem;
+    border: .1rem solid rgb(241, 62, 62);
+   
+
+}
+
+.search-page .header .search-input .search-logo{
+    margin:1rem;
+    color:rgb(255, 94, 94);
+}
+
+.trending-searches{
+    padding:1.5rem 5rem;
+    
+}
+
+.trending-searches .trending-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-searches .trending-cards .card
+{
+    margin:.4rem;
+    outline: none;
+    border:none;
+
+    
+}
+
+.trending-searches .trending-cards .card img{
+    object-fit: cover;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1rem;
+    
+}
+
+.trending-searches .trending-cards .card h3{
+    font-size: small;
+
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+   
+}\Anubhav6205\LeetCode-Practice
+
+.main{
+    position:absolute;
+    z-index: 1;
+    left: 0; 
+    right: 0; 
+    background-color: #373737b7;
+
+}
+
+.box {
+    background-color: #21252D;
+    width: 70rem;
+    height: 48rem;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .15);
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    overflow: hidden;
+    background-size: cover;
+    visibility: hidden;
+    transform: scale(.9);
+    transition: .1s linear;
+}
+
+.pop-up {
+
+    visibility: visible;
+    transform: scale(1);
+
+}
+
+
+
+.box .box-left {
+    background-color: rgb(231, 107, 107);
+
+
+}
+
+.box .box-left .log-in-image {
+    width: 10px;
+
+}
+
+
+.box .box-right {
+    padding: 1rem 2rem;
+
+
+
+
+
+}
+
+
+
+.box .box-right .close-btn {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    color: white;
+
+
+}
+
+.box .box-right .login-heading {
+    margin: 2rem 0 5rem 0;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.box .box-right .input-details {
+    margin: 2rem 0 1rem 0;
+
+}
+
+.box .box-right .input-details input {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #aaa;
+}
+
+.box .box-right .forgot-password {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.box .box-right .login {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    color: white;
+}
+
+.box .box-right .login .log-in-link {
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    border: .1rem solid red;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: white;
+    background-color: #991B1B;
+
+}
+
+.box .box-right .horizonal-line {
+    margin: 2em 0 2rem 0;
+}
+
+
+
+
+
+.box .box-right .sign-up-section h2 {
+    font-size: 1rem;
+    color: white;
+
+}
+
+.box .box-right .sign-up-section .sign-up-link {
+    width: 100%;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    border: .1rem solid red;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin: 1.5em 0 0 0;
+    color: white;
+    background-color: #991B1B;
+
+}
+
+
+/*media queries*/
+
+@media screen and (max-width: 1100px) {
+    .main{
+        background-color: rgb(153, 7, 7);
+    }
+    
+  }
